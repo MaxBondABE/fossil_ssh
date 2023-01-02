@@ -1,0 +1,6 @@
+services:
+  fossil:
+    image: fossil
+    build: .
+    ports:
+      - "22:22"

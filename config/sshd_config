@@ -1,0 +1,9 @@
+PasswordAuthentication no
+PermitRootLogin no
+X11Forwarding no
+
+Match Group scm
+    X11Forwarding no
+    AllowTcpForwarding no
+    AllowAgentForwarding no
+    ForceCommand /usr/local/bin/fossil_wrapper.sh
